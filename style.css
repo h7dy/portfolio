@@ -3,14 +3,14 @@
 
 /* Global styles */
 body {
-    font-family: 'Inter', sans-serif; /* sans-serif as fallback/backup */
+    font-family: 'Inter', sans-serif; /* sans-serif as fallback/backup font */
     margin: 0;
     padding: 0;
     background-color: #0a0a0a;
     color: #fff;
 }
 
-/* Header */
+/* Header Section Styling */
 header {
     background: rgba(20, 20, 20, 0.8);
     color: white;
@@ -45,7 +45,7 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-/* Glassmorphic Section Styling */
+/* General Section Styling */
 section {
     max-width: 900px;
     margin: 40px auto;
@@ -61,7 +61,7 @@ h2 {
     letter-spacing: 1px;
 }
 
-/* About Section */
+/* About Section Styling */
 .aboutContainer {
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ h2 {
     border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Skills Grid */
+/* Skills Styling */
 .skillsGrid {
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +92,7 @@ h2 {
     font-size: 14px;
 }
 
-/* Project Grid */
+/* Project Styling */
 .projectGrid {
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@ h2 {
     box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.2);
 }
 
-/* Hobbies Grid */
+/* Hobbies Styling */
 .hobbiesGrid {
     display: flex;
     justify-content: left;
@@ -171,7 +171,7 @@ footer {
     margin-top: 40px;
 }
 
-/* Light Mode */
+/* Light Mode Style Changes */
 body.light-mode {
     background-color: #f4f4f4;
     color: black;
